@@ -1,2 +1,2 @@
 # ROS---Navigation-using-SLAM
-![ScreenShot](Gazebo_maze.PNG)
+![ScreenShot](Gazebo_maze.png)
