@@ -14,9 +14,9 @@ copy entire file to catkin_ws/src
 ----------------------------------------------------------
 >> <pre><code>export TURTLEBOT3_MODEL=burger</pre></code>
 >> 
->> <pre><code>roslaunch <insert your catkin package name> turtlebot3_navigation.launch map_file:=$HOME/catkin_ws/src/<insert your catkin package name>/maps/gazebo_maze.yaml</pre></code> (or use real map file if running in real world)
+>> <pre><code>roslaunch -insert your catkin package name- turtlebot3_navigation.launch map_file:=$HOME/catkin_ws/src/<insert your catkin package name>/maps/gazebo_maze.yaml</pre></code> (or use real map file if running in real world)
   
 ----------------------------------------------------------
->> <pre><code>cd ~/catkin_ws/src/<insert your catkin package name>/scripts && rosrun <insert your catkin package name> WayPoints.py</pre></code>
+>> <pre><code>cd ~/catkin_ws/src/<insert your catkin package name>/scripts && rosrun -insert your catkin package name- WayPoints.py</pre></code>
 
   NOTE: gazebo_maze.yaml was mapped using a custom environment. Feel free to map any envionemnt and use it instead of 'gazebo_maze' map.
