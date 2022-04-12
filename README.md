@@ -9,7 +9,7 @@ To simulate in provided gazebo_maze environemnt:
 copy entire file to catkin_ws/src
 
 ----------------------------------------------------------
->> export TURTLEBOT3_MODEL=burger (or whichever model ...like waffle perhaps?)
+>> <pre><code>export TURTLEBOT3_MODEL=burger</pre></code> (or whichever model ...like waffle perhaps?)
 >> 
 >> roslaunch turtlebot3_gazebo turtlebot3_maze.launch (use turtlebot bringup if you want to use SLAM to generate map in real world. Then save the map in maps folder)
 >> 
